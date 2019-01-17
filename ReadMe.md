@@ -1,4 +1,4 @@
-###GoLand常用快捷键
+### GoLand常用快捷键
 
 - OPTION+COMMOND+L  : 代码格式美化
 - 
