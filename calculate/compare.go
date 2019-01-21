@@ -2,7 +2,6 @@
 @Time : 2019-01-16 13:42
 @Author : caozg
 @File : compare
-测试GIT提交
 */
 package main
 
