@@ -1,5 +1,5 @@
 /*
-@Time : 2019-01-16 16:05 
+@Time : 2019-01-16 16:05
 @Author : caozg
 @File : mysql
 */
@@ -33,10 +33,10 @@ func main() {
 	//查询
 	rows, err := db.Query("SELECT * FROM age")
 	for rows.Next() {
-		var name string
+		var a string
 		var age int
-		err = rows.Scan(&name, &age)
-		fmt.Printf("姓名: %s ", name)
+		err = rows.Scan(&a, &age)
+		fmt.Printf("姓名: %s ", a)
 		fmt.Printf("年龄: %d\n", age)
 	}
 	checkErr(err)
