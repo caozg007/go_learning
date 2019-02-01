@@ -49,7 +49,7 @@ func querydata() {
 	buffer.WriteString("GROUP BY ml.goods_id, ml.activity_id ORDER BY mae.activity_name DESC ")
 	file = xlsx.NewFile()
 	sheet, _err = file.AddSheet("Sheet1")
-	db, _ := sql.Open("mysql", "readonly:bPUK4LPFBK@(118.31.171.216:3309)/ybl_order?charset=utf8&parseTime=true")
+	db, _ := sql.Open("mysql", "111:111@(1:3309)/ybl_order?charset=utf8&parseTime=true")
 	rows, err := db.Query(buffer.String())
 	if err != nil {
 		fmt.Printf(err.Error())
